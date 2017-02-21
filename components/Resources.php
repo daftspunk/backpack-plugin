@@ -12,7 +12,7 @@ class Resources extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'           => 'Include assets',
+            'name'           => 'Resources',
             'description'    => 'Easily reference theme assets for inclusion on a page.',
         ];
     }
@@ -38,7 +38,7 @@ class Resources extends ComponentBase
             'vars' => [
                 'title'       => 'vars',
                 'description' => 'Variables name(s) and value(s)',
-                'type'        => 'stringList',
+                'type'        => 'dictionary',
             ]
         ];
     }
